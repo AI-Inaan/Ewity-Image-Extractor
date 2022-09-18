@@ -45,7 +45,20 @@ remember to replace authorization with the auth key we noted down before
 to run this code go to inspect element and paste it into the console and hit enter
 this should return json data regarding locations
 
-```{"data":[{"id":1234,"name":"","display_name":"","type":"retail","tax_number":"","tax_activity_number":"","street_address":"","city":"'","":"","phone":"","bill_note":null,"price_level":null}],"search":{"searches":[]}}
+```{"data":
+[{"id":1234,
+"name":"",
+"display_name":"",
+"type":"retail","tax_number":"",
+"tax_activity_number":"",
+"street_address":"",
+"city":"'",
+"":"",
+"phone":"",
+"bill_note":null,
+"price_level":null}],
+"search":{"searches":[]}
+}
 ```
 
 what we are intrested in is the id so take note of that
