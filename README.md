@@ -93,3 +93,7 @@ take the following code and replace {ID} with the id we got and also make sure t
 once you do this and run the command in the console you should get a large json response. just copy it and paste it into
 a file with the name ewitydata.json and youre good to go
 
+## why is getting the json data not automated
+its best if any and all communication with a POS system is handled by an IT staff who knows what they are doing and knows exactly what commands is being ran. also api access is a paid feature so i didnt want this to be full on wrapper to bypass their paid features. just a simple tool to get me the images whenever i need them. 
+
+Made with ♥ in Maldives
