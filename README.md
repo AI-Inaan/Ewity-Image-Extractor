@@ -18,7 +18,8 @@ note down the following token. it will be needed later
 next you will need to find the location ID
 here is the code on how to do that
 
-```fetch("https://app.ewitypos.com/api/v1/locations", {
+```
+fetch("https://app.ewitypos.com/api/v1/locations", {
   "headers": {
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/apng,/;q=0.8",
     "accept-language": "en-US,en;q=0.9",
@@ -45,7 +46,8 @@ remember to replace authorization with the auth key we noted down before
 to run this code go to inspect element and paste it into the console and hit enter
 this should return json data regarding locations
 
-```{"data":
+```
+{"data":
 [{"id":1234,
 "name":"",
 "display_name":"",
@@ -63,7 +65,8 @@ this should return json data regarding locations
 
 what we are intrested in is the id so take note of that
 
-```fetch("https://app.ewitypos.com/api/v1/products/locations/{ID}/full-list", {
+```
+fetch("https://app.ewitypos.com/api/v1/products/locations/{ID}/full-list", {
   "headers": {
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/apng,/;q=0.8",
     "accept-language": "en-US,en;q=0.9",
